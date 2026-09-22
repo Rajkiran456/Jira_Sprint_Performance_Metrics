@@ -1,0 +1,9 @@
+Issue_Key,Issue_Type,Story_Points,Status,Assignee,Cycle_Time_Days
+PROJ-101,Story,5,Done,Rohan,4
+PROJ-102,Bug,3,Done,Priya,2
+PROJ-103,Story,8,In Progress,Rohan,7
+PROJ-104,Task,2,Done,Amit,3
+PROJ-105,Story,5,To Do,Priya,0
+PROJ-106,Bug,1,Done,Amit,1
+PROJ-107,Story,13,In Progress,Rohan,9
+PROJ-108,Task,3,Done,Priya,2
