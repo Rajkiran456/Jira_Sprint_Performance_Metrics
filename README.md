@@ -12,3 +12,6 @@ Unbalanced workload distribution across Agile team members causes bottleneck del
 - **Workload Bottleneck:** Identified work-in-progress distribution imbalances to adjust future sprint capacity planning.
 
 ## 📁 Repository Structure
+- **jira_sprint_analysis.py:** Main Agile Analytics Script
+- **jira_sprint_performance_report.csv:** Exported Metrics Report
+- **README.md:** Documentation
