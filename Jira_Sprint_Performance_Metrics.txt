@@ -1,0 +1,14 @@
+import pandas as pd
+
+data = {
+    'Sprint_Name': ['Sprint 1', 'Sprint 2', 'Sprint 3', 'Sprint 4'],
+    'Committed_Points': [40, 45, 50, 42],
+    'Completed_Points': [35, 42, 38, 40]
+}
+df_sprint = pd.DataFrame(data)
+df_sprint['Completion_Rate_%'] = (df_sprint['Completed_Points'] / df_sprint['Committed_Points']) * 100
+
+print("--- Jira Sprint Performance Metrics ---")
+print(df_sprint)
+
+df_sprint.to_csv('jira_sprint_performance_report.csv', index=False)
